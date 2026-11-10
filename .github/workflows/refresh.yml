@@ -1,0 +1,40 @@
+name: refresh-profile-assets
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "tools/**"
+      - "assets/**"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Re-render assets
+        run: node tools/render_assets.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Commit if changed
+        run: |
+          if git diff --quiet assets/; then
+            echo "assets unchanged"
+            exit 0
+          fi
+          git config user.name "ahrazzle"
+          git config user.email "38987266+ahrazzle@users.noreply.github.com"
+          git add assets/
+          git commit -m "chore: refresh profile assets
+
+Signed-off-by: ahrazzle <38987266+ahrazzle@users.noreply.github.com>"
+          git push

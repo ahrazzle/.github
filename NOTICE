@@ -1,0 +1,8 @@
+Eido, the design language of ML Weft (Moissanite Labs)
+https://github.com/Moissanite-Labs/weft-eido
+Licensed under Apache-2.0. This repository vendors src/aesthetic-mixer.js
+(tools/vendor/aesthetic-mixer.js) unmodified, to drive the hue ring in the
+profile banner. Copyright 2026 Moissanite Labs. Developed under the internal
+name Aywa. See the upstream NOTICE and LICENSE files for full terms.
+
+Everything else in this repository is Copyright Ahraz Arifuddin unless noted.
