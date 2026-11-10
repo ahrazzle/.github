@@ -1,14 +1,21 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ahrazzle/.github/main/assets/banner.svg" width="880" alt="Ahraz Arifuddin · Curiosity, creation, interconnection · Toronto" />
+  <img src="https://raw.githubusercontent.com/ahrazzle/.github/main/assets/banner.svg" width="880" alt="Ahraz Arifuddin · Curiosity, creation, interconnection ·" />
 </div>
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/ahrazzle/.github/main/assets/live.svg" width="880" alt="Public repo counts across the five homes" />
 </div>
 
-Nothing is definite. Everything is interconnected. I'm **Ahraz Arifuddin**, in Toronto · founder of Aetherean Inc. and CEO of [ASKA Digital](https://digital.askaconsult.com/), the operating company for the work. My own words for the posture: **observation before opinion, execution before credit.**
+Nothing is definite, everything is interconnected. 
 
-The work runs as one connected undertaking: from a personal agent to the languages agents use to the proofs beneath the software we ship. Four homes on this profile carry it.
+**Ahraz Arifuddin** · founder of [ASKA Digital](https://digital.askaconsult.com/) 
+
+**observation > opinion**
+
+**execution > credit.**
+
+
+My work is a connected network of endeavours: from a personal agent to the languages agents use to the proofs beneath software to the hardware and infrastructure that support it. 
 
 | Home | What lives there | Start here |
 | --- | --- | --- |
